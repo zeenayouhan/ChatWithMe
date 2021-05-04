@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F3BEB7226413E0500B11791 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3BEB7126413E0500B11791 /* Extensions.swift */; };
 		2F84AA78263FF99700AFFF0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F84AA77263FF99700AFFF0C /* AppDelegate.swift */; };
 		2F84AA7A263FF99700AFFF0C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F84AA79263FF99700AFFF0C /* SceneDelegate.swift */; };
 		2F84AA7C263FF99700AFFF0C /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F84AA7B263FF99700AFFF0C /* ConversationsViewController.swift */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F3BEB7126413E0500B11791 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		2F84AA74263FF99700AFFF0C /* ChatWithMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatWithMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F84AA77263FF99700AFFF0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F84AA79263FF99700AFFF0C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -88,6 +90,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F3BEB702641004100B11791 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				2F84AAAD2640096900AFFF0C /* LoginViewController.swift */,
+				2F84AAAF2640098A00AFFF0C /* RegisterViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		2F84AA6B263FF99700AFFF0C = {
 			isa = PBXGroup;
 			children = (
@@ -167,8 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				2F84AA7B263FF99700AFFF0C /* ConversationsViewController.swift */,
-				2F84AAAD2640096900AFFF0C /* LoginViewController.swift */,
-				2F84AAAF2640098A00AFFF0C /* RegisterViewController.swift */,
+				2F3BEB702641004100B11791 /* Login */,
 				2F84AAB126400A1800AFFF0C /* PhotoViewerViewController.swift */,
 				2F84AAB326400A2800AFFF0C /* VideoViewerViewController.swift */,
 				2F84AAB526400A3F00AFFF0C /* NewConversationViewController.swift */,
@@ -182,6 +192,7 @@
 			children = (
 				2F84AA79263FF99700AFFF0C /* SceneDelegate.swift */,
 				2F84AA77263FF99700AFFF0C /* AppDelegate.swift */,
+				2F3BEB7126413E0500B11791 /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -329,6 +340,7 @@
 				2F84AAB626400A3F00AFFF0C /* NewConversationViewController.swift in Sources */,
 				2F84AAB02640098A00AFFF0C /* RegisterViewController.swift in Sources */,
 				2F84AAAE2640096900AFFF0C /* LoginViewController.swift in Sources */,
+				2F3BEB7226413E0500B11791 /* Extensions.swift in Sources */,
 				2F84AA78263FF99700AFFF0C /* AppDelegate.swift in Sources */,
 				2F84AAB826400A5000AFFF0C /* ProfileViewController.swift in Sources */,
 				2F84AA7A263FF99700AFFF0C /* SceneDelegate.swift in Sources */,
